@@ -16,7 +16,7 @@
 
 3. [String](./3_String.md) (Строка): `typeof instance === "string"`
 
-4. Boolean (Логический тип): `typeof instance === "boolean"`
+4. [Boolean](./4_Boolean.md) (Логический тип): `typeof instance === "boolean"`
 
 5. Undefined (Неопределённый тип): `typeof instance === "undefined"`
 
