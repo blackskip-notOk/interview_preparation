@@ -18,12 +18,12 @@
 
 4. [Boolean](./4_Boolean.md) (Логический тип): `typeof instance === "boolean"`
 
-5. Undefined (Неопределённый тип): `typeof instance === "undefined"`
+5. [Undefined](./5_Undefined.md) (Неопределённый тип): `typeof instance === "undefined"`
 
-6. Symbol (в ECMAScript 6): `typeof instance === "symbol"`
-
-7. Null (Null тип): `typeof instance === "object"`.
+6. [Null](./5_Undefined_%26_null.md) (Null тип): `typeof instance === "object"`.
 Специальный примитив, используемый не только для данных но и в качестве указателя на финальную точку в **Цепочке Прототипов**;
+
+7. Symbol (в ECMAScript 6): `typeof instance === "symbol"`
 
 8. Object (Объект): `typeof instance === "object"`.
 Простая структура, используемая не только для хранения данных, но и для создания других структур, где любая структура создаётся с использованием ключевого слова new: new Object, new Array, new Map, new Set, new WeakMap, new WeakSet, new Date и множество других структур;
