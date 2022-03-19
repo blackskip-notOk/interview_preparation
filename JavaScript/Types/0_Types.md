@@ -25,5 +25,5 @@
 
 7. [Symbol](./6_Symbol.md) (в ECMAScript 6): `typeof instance === "symbol"`
 
-8. Object (Объект): `typeof instance === "object"`.
+8. [Object](./7_Object.md) (Объект): `typeof instance === "object"`.
 Простая структура, используемая не только для хранения данных, но и для создания других структур, где любая структура создаётся с использованием ключевого слова new: new Object, new Array, new Map, new Set, new WeakMap, new WeakSet, new Date и множество других структур;
