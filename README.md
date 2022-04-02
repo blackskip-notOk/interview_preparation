@@ -13,3 +13,9 @@
 * ## [**Область видимости**](./JavaScript/Theory/Variables/scope.md)
 
 * ## [**This и контекст**](./JavaScript/Theory/Context/context.md)
+
+* ## [**Задачи на контекст**](./JavaScript/Practice/context.js)
+
+* ## [**Объекты**](./JavaScript/Theory/Object/object.md)
+
+* ## [**Задачи на различные темы, часть 1**](./JavaScript/Practice/part_1.js)
