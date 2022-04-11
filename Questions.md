@@ -4,7 +4,7 @@
 
 1. [Что такое прогрессивный рендеринг?](./Web_technologies/rendering.md)
 2. [Разница между адаптивным (adaptive) и отзывчивым (responsive) дизайнами?](./Web_technologies/design.md)
-3. Разница между Progressive Enhancement и Graceful Degradation?
+3. [Разница между Progressive Enhancement и Graceful Degradation?](./Web_technologies/Progressive_Enhancement%20_Graceful_Degradation.md)
 4. Что такое кроссбраузерность?
 5. Что такое HTTP? Из чего состоит HTTP-запрос? Какие методы может иметь HTTP-запрос? Что такое HTTP cookie? Для чего они используются?
 6. Основные принципы ООП?
