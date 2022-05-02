@@ -5,12 +5,12 @@
 1. [Что такое прогрессивный рендеринг?](./Web_technologies/rendering.md)
 2. [Разница между адаптивным (adaptive) и отзывчивым (responsive) дизайнами?](./Web_technologies/design.md)
 3. [Разница между Progressive Enhancement и Graceful Degradation?](./Web_technologies/Progressive_Enhancement%20_Graceful_Degradation.md)
-4. Что такое кроссбраузерность?
+4. [Что такое кроссбраузерность?](./Web_technologies/cross_browser.md)
 5. [Что такое HTTP? Из чего состоит HTTP-запрос?](./Web_technologies/HTTP/http.md)
 6. [Какие методы HTTP-запросов вы знаете?](./Web_technologies/HTTP/http_methods.md)
 7. [Какие версии HTTP-протокола вам известны?](./Web_technologies/HTTP/http1.1_vs_http2_vs_http3.md)
 8. [Какие знаете коды ответа (состояния) HTTP?](./Web_technologies/HTTP/http_codes.md)
-9. Что такое Cross-Origin Resource Sharing? Как устранить проблемы с CORS?
+9. [Что такое Cross-Origin Resource Sharing? Как устранить проблемы с CORS?](./Web_technologies/cors.md)
 10. [Что такое cookie?](./Web_technologies/HTTP/http_cookie.md)
 11. [Какой максимальный размер cookie?](./Web_technologies/HTTP/http_cookie.md)
 12. Основные принципы ООП?
