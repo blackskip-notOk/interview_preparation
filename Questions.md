@@ -2,51 +2,47 @@
 
 ## **Web technologies (общие вопросы по веб-разработке):**
 
-1. [Что такое прогрессивный рендеринг?](./Web_technologies/rendering.md)
-2. [Разница между адаптивным (adaptive) и отзывчивым (responsive) дизайнами?](./Web_technologies/design.md)
-3. [Разница между Progressive Enhancement и Graceful Degradation?](./Web_technologies/Progressive_Enhancement%20_Graceful_Degradation.md)
-4. [Что такое кроссбраузерность?](./Web_technologies/cross_browser.md)
-5. [Что такое HTTP? Из чего состоит HTTP-запрос?](./Web_technologies/HTTP/http.md)
-6. [Какие методы HTTP-запросов вы знаете?](./Web_technologies/HTTP/http_methods.md)
-7. [Какие версии HTTP-протокола вам известны?](./Web_technologies/HTTP/http1.1_vs_http2_vs_http3.md)
-8. [Какие знаете коды ответа (состояния) HTTP?](./Web_technologies/HTTP/http_codes.md)
-9. [Что такое Cross-Origin Resource Sharing? Как устранить проблемы с CORS?](./Web_technologies/cors.md)
-10. [Что такое cookie?](./Web_technologies/HTTP/http_cookie.md)
-11. [Какой максимальный размер cookie?](./Web_technologies/HTTP/http_cookie.md)
-12. Основные принципы ООП?
-13. Что такое SOLID?
-14. Что такое Babel? Для чего он используется?
-15. Разница между feature detection, feature inference и анализом строки user-agent?
-16. Что такое статический метод класса (static)? Как осуществляется его вызов?
-17. Что такое Веб-компоненты и какие технологии в них используются?
-18. Что такое CORS?
-19. Разница между cookie, sessionStorage и localStorage?
-20. Способы уменьшения времени загрузки веб-страницы?
-21. Особенности разработки мультиязычных сайтов?
-22. Что такое Flash Of Unstyled Content (FOUC)? Как его избежать?
-23. Разница между layout, painting и compositing?
-24. Что такое WebSocket? В чем принцип его работы?
-25. [Разница между HTTP и HTTPS?](./Web_technologies/HTTP/http.md)
-26. Разница между Long-Polling, Websockets и Server-Sent Events?
-27. Что такое MVC?
-28. Недостатки паттерна MVW?
-29. [Разница между PUT- и POST-запросами?](./Web_technologies/HTTP/http.md)
-30. Что Такое API?
-31. Что такое CDN?
-32. Разница между композицией и наследованием?
+1. [Прогрессивный рендеринг](./Web_technologies/rendering.md)
+2. [Адаптивный (adaptive) и отзывчивый (responsive) дизайны](./Web_technologies/design.md)
+3. [Progressive Enhancement и Graceful Degradation?](./Web_technologies/Progressive_Enhancement%20_Graceful_Degradation.md)
+4. [Кроссбраузерность?](./Web_technologies/cross_browser.md)
+5. [HTTP](./Web_technologies/HTTP/http.md)
+6. [Методы HTTP-запросов](./Web_technologies/HTTP/http_methods.md)
+7. [Версии HTTP-протокола](./Web_technologies/HTTP/http1.1_vs_http2_vs_http3.md)
+8. [Коды ответа (состояния) HTTP](./Web_technologies/HTTP/http_codes.md)
+9. [Cross-Origin Resource Sharing](./Web_technologies/cors.md)
+10. [Cookie](./Web_technologies/HTTP/http_cookie.md)
+11. [Основные принципы ООП](./JavaScript/Theory/OOP/OOP.md)
+12. [Композиция и наследование](./JavaScript/Theory/OOP/OOP.md)
+
+13. SOLID
+14. Babel
+15. Feature detection, Feature inference, анализом строки user-agent
+16. Статический метод класса (static).
+17. Веб-компоненты
+19. sessionStorage и localStorage
+20. Способы уменьшения времени загрузки веб-страницы
+21. Особенности разработки мультиязычных сайтов
+22. Flash Of Unstyled Content (FOUC)
+23. Layout, Painting и Compositing
+26. Long-Polling, Websockets и Server-Sent Events
+27. MVC
+28. Недостатки паттерна MVW
+30. API
+31. CDN
 
 ***
 
 ## **HTML (вопросы по языку гипертекстовой разметки)**
 
-1. Что такое HTML и для чего он используется?
-2. Что такое doctype? И для чего он используется?
-3. Опишите базовую структуру HTML-страницы?
-4. Что такое семантика? Какие семантичные тэги вы знаете?
+1. HTML
+2. doctype
+3. Базовая структура HTML-страницы
+4. Семантика
 5. Как семантически правильно сверстать картинку с подписью?
 6. Для какого тэга используется атрибут alt и зачем он нужен?
 7. Какая разница между тэгами `<strong>` `<em>` и `<b>` `<i>`?
-8. Что такое валидация? И какие типы проверок HTML документа вы знаете?
+8. Типы проверок HTML документа
 9. Какой тэг использовать для того, что бы сверстать кнопку?
 10. Что такое инлайновый стиль? Можно ли его переопределить?
 11. Есть ли у HTML элементов свои дефолтные специфичные стили?
@@ -92,92 +88,86 @@
 
 ## **JavaScript (вопросы по языку JavaScript):**
 
-1. Типы данных в JavaScript?
-2. Разница между == и === (нестрогое/строгое равенство)?
-3. Что такое Strict mode в JavaScript?
-4. Разница между function declaration и function expression?
-5. Разница между `null` и `undefined`?
-6. Операторы «И» и «ИЛИ» (`&&` и `||`)?
-7. Типы таймеров в JavaScript?
-8. Что такое поднятие (Hoisting)?
-9. Что такое область видимости (Scope)?
-10. Разница между `var`, `let` и `const`?
-11. Что такое замыкание (Closure)?
-12. Что обозначает `this` в JavaScript?
-13. Что такое функции высшего порядка (Higher Order Functions)?
-14. Как превратить любой тип данных в булевый? Перечислите ложные значения в JS?
-15. Методы строк в JavaScript?
-16. Методы массивов в JavaScript?
-17. Что такое чистая функция?
-18. Разница между `.forEach` и `.map()`?
-19. Разница между `.call()`, `.apply()` и `bind()`?
-20. Почему в JS функции называют объектами первого класса?
+1. [Типы данных](./JavaScript/Theory/Types/0_Types.md)
+2. [== и === (нестрогое/строгое равенство)](./JavaScript/Theory/Operators/equality/equality.md)
+3. Что такое Strict mode
+4. Function declaration и Function expression
+5. [Разница между `null` и `undefined`](./JavaScript/Theory/Types/5_Undefined_%26_null.md)
+6. Операторы «И» и «ИЛИ» (`&&` и `||`)
+7. Типы таймеров
+8. Поднятие (Hoisting)
+9. [Область видимости (Scope)](./JavaScript/Theory/Variables/scope.md)
+10. Разница между `var`, `let` и `const`
+11. Замыкание (Closure)
+12. [This](./JavaScript/Theory/Context/context.md)
+13. Функции высшего порядка (Higher Order Functions)
+14. [Ложные значения](./JavaScript/Theory/Types/4_Boolean.md)
+15. Методы строк
+16. Методы массивов
+17. Чистая функция
+20. Функции - объекты первого класса
 21. Как определить наличие свойства в объекте?
-22. Что такое IIFE?
-23. Что такое псевдомассив arguments?
-24. Разница между host-объектами и нативными объектами?
-25. Почему результат сравнения 2х объектов это `false`?
-26. Что такое прототипное наследование? Как создать объект без прототипа?
-27. Почему расширение нативных JavaScript-объектов это плохая практика
-28. Что такое `NaN`? Как определить, что значение равно `NaN`?
-29. Что такое объектная обертка (Wrapper Objects)?
-30. Как в JavaScript создать объект?
-31. Для чего используется ключевое слово `new`?
-32. Для чего используется оператор `!!` (двойного отрицания)?
+22. IIFE
+23. Псевдомассив arguments
+24. Host-объекты и нативные объекты
+26. [Прототипное наследование](./JavaScript/Theory/OOP/OOP.md)
+28. `NaN`
+29. [Объектная обертка (Wrapper Objects)](./JavaScript/Theory/Object/object.md)
+30. [Создание объектов](./JavaScript/Theory/Object/object.md)
+31. Ключевое слово `new`
+32. оператор `!!` (двойное отрицание)
 33. Как проверить, является ли значение массивом?
-34. Для чего используется оператор `%` (остатка)?
-35. Как работает boxing/unboxing в JavaScript?
-36. Что такое мемоизация? Реализуйте базовую логику функции для мемоизации?
-37. Разница между оператором `in` и методом `hasOwnProperty`?
-38. Разница между глубокой (deep) и поверхностной (shallow) копиями объекта? Как сделать каждую из них?
+34. оператор `%` (остаток)
+35. boxing/unboxing
+36. Мемоизация
+37. [Проверка свойств объектов: `in` и `hasOwnProperty`](./JavaScript/Theory/Object/object.md)
+38. [Глубокая (deep) и поверхностная (shallow) копия объекта](./JavaScript/Theory/Object/object.md)
 39. Что такое цепочка вызовов функций (chaining)? Как реализовать такой подход?
 40. Что такое необъявленная переменная?
 41. Как передаются параметры в функцию: по ссылке или по значению?
-42. Что такое прототип объекта в JavaScript?
-43. Разниц между `Object.freeze()` и `Object.seal()`?
+42. [Прототип объекта](./JavaScript/Theory/Object/Prototype/prototype.md)
+43. [`Object.freeze()` и `Object.seal()`](./JavaScript/Theory/Object/object.md)
 44. Разница между методами `slice()` и `splice()`?
 45. Как работают методы `find()`, `findIndex()` и `indexOf()`?
 46. Плюсы и минусы использования use strict?
 47. Разница между методами `push()`, `pop()`, `shift()` и `unshift()`?
 48. Плюсы и минусы иммутабельности? Как достичь иммутабельности в JS?
-49. Типы всплывающих окон в JavaScript?
-50. Типы объектов JavaScript?
-51. Парадигмы программирования в JavaScript?
-52. Что такое ECMAScript? В чём отличие от JavaScript?
-53. Что такое временная мёртвая зона (temporal dead zone)?
-54. Разница между Rest и Spread операторами?
-55. Что такое деструктуризация?
-56. Для чего используется цикл `for…of`?
-57. Что такое шаблонные литералы (Template Literals)?
-58. Что такое `Set`, `Map`, `WeakMap` и `WeakSet`?
-59. Разница между обычными функциями и стрелочными?
-60. Разница между методом `Object.freeze()` и `const`?
-61. Что такое генераторы? Когда стоит использовать генераторы?
-62. Что такое DOM?
-63. Что такое распространение события (Event Propagation)?
-64. Что такое делегирование событий (Event Delegation)?
-65. Разница между `e.preventDefault()` и `e.stopPropagation()`?
-66. Методы поиска элементов в DOM?
-67. Разница между `event.target` и `event.currentTarget`?
-68. Разница между `.stopPropagation()` и `.stopImmediatePropagation()`?
-69. Разница между событиями load и DOMContentLoaded?
-70. Разница между attribute и property у DOM-элементов?
-71. Разница между HTMLCollection и NodeList?
+49. Типы всплывающих окон?
+50. Типы объектов?
+51. Парадигмы программирования
+52. ECMAScript, отличие от JavaScript
+53. временная мёртвая зона (temporal dead zone)
+54. Rest и Spread
+55. деструктуризация
+56. цикл `for…of`
+57. шаблонные литералы (Template Literals)
+58. `Set`, `Map`, `WeakMap` и `WeakSet`
+59. Cтрелочные функции
+61. Генераторы. Когда стоит использовать
+62. DOM
+63. Event Propagation
+64. Event Delegation
+65. `e.preventDefault()` и `e.stopPropagation()` и `.stopImmediatePropagation()`
+66. Поиск элементов в DOM
+67. `event.target` и `event.currentTarget`
+69. события load и DOMContentLoaded
+70. attribute и property у DOM-элементов
+71. HTMLCollection и NodeList
 72. Как динамически добавить элемент на HTML-страницу?
-73. Типы узлов DOM-дерева?
-74. Свойства для перемещения по DOM-дереву?
-75. Виды событий в JavaScript?
+73. Типы узлов DOM-дерева
+74. Свойства для перемещения по DOM-дереву
+75. Виды событий
 76. Как добавить обработчик события на DOM-элемент? Как удалить обработчик события с DOM-элемента?
 77. Сколько аргументов принимает addEventListener?
-78. Разница между innerHTML и outerHTML?
-79. Разница между синхронными и асинхронными функциями?
-80. Что такое AJAX?
-81. Что такое same-origin policy в контексте JavaScript?
-82. Что такое цикл событий (event loop) и как он работает?
-83. Что такое промисы (Promises)?
-84. Плюсы и минусы использовании Ajax?
-85. Подходы при работе с асинхронным кодом?
-86. Преимущества использовании промисов вместо колбэков?
+78. innerHTML и outerHTML
+79. синхронными и асинхронными функциями
+80. AJAX
+81. same-origin policy
+82. цикл событий (event loop)
+83. Promise
+84. Плюсы и минусы использовании Ajax
+85. Подходы при работе с асинхронным кодом
+86. Преимущества использовании промисов вместо колбэков
 
 ***
 
