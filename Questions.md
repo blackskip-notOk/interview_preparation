@@ -14,10 +14,9 @@
 10. [Cookie](./Web_technologies/HTTP/http_cookie.md)
 11. [Основные принципы ООП](./JavaScript/Theory/OOP/OOP.md)
 12. [Композиция и наследование](./JavaScript/Theory/OOP/OOP.md)
-
-13. SOLID
-14. Babel
-15. Feature detection, Feature inference, анализом строки user-agent
+13. [SOLID](./JavaScript/Theory/OOP/SOLID.md)
+14. [Babel](./Web_technologies/babel.md)
+15. [Feature detection, Feature inference, user-agent](./Web_technologies/browser/feature_detection_vs_userAgent.md)
 16. Статический метод класса (static).
 17. Веб-компоненты
 19. sessionStorage и localStorage

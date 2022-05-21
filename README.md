@@ -10,6 +10,8 @@
 
 <!-- * ## [**CSS**]() -->
 
+* ## [**OOP**](./JavaScript/Theory/OOP/OOP.md)
+
 * ## [**JavaScript**](./JavaScript/Theory/index.md)
 
 * ## [**Задачи на контекст**](./JavaScript/Practice/context.js)
