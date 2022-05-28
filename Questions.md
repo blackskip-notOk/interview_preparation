@@ -17,8 +17,7 @@
 13. [SOLID](./JavaScript/Theory/OOP/SOLID.md)
 14. [Babel](./Web_technologies/babel.md)
 15. [Feature detection, Feature inference, user-agent](./Web_technologies/browser/feature_detection_vs_userAgent.md)
-16. Статический метод класса (static).
-17. Веб-компоненты
+16. [Веб-компоненты](./Web_technologies/web-components/webComponents.md)
 19. sessionStorage и localStorage
 20. Способы уменьшения времени загрузки веб-страницы
 21. Особенности разработки мультиязычных сайтов
