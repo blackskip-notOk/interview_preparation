@@ -18,7 +18,7 @@
 14. [Babel](./Web_technologies/babel.md)
 15. [Feature detection, Feature inference, user-agent](./Web_technologies/browser/feature_detection_vs_userAgent.md)
 16. [Веб-компоненты](./Web_technologies/web-components/webComponents.md)
-19. sessionStorage и localStorage
+17. [sessionStorage и localStorage](./Web_technologies/browser/localStorage_vs_sessionStorage.md)
 20. Способы уменьшения времени загрузки веб-страницы
 21. Особенности разработки мультиязычных сайтов
 22. Flash Of Unstyled Content (FOUC)
