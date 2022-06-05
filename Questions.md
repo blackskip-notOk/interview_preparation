@@ -19,7 +19,7 @@
 15. [Feature detection, Feature inference, user-agent](./Web_technologies/browser/feature_detection_vs_userAgent.md)
 16. [Веб-компоненты](./Web_technologies/web-components/webComponents.md)
 17. [sessionStorage и localStorage](./Web_technologies/browser/localStorage_vs_sessionStorage.md)
-20. Способы уменьшения времени загрузки веб-страницы
+18. [Способы уменьшения времени загрузки веб-страницы](./Web_technologies/download_optimisation.md)
 21. Особенности разработки мультиязычных сайтов
 22. Flash Of Unstyled Content (FOUC)
 23. Layout, Painting и Compositing
