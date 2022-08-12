@@ -22,12 +22,12 @@
 18. [Способы уменьшения времени загрузки веб-страницы](./Web_technologies/download_optimisation.md)
 19. Особенности разработки мультиязычных сайтов
 20. [Flash Of Unstyled Content (FOUC)](./Web_technologies/browser/FOUC.md)
-23. Layout, Painting и Compositing
-26. Long-Polling, Websockets и Server-Sent Events
-27. MVC
-28. Недостатки паттерна MVW
-30. API
-31. CDN
+21. [Layout, Painting и Compositing](./Web_technologies/browser/Layout_Painting_Compositing.md)
+22. [Long-Polling, Websockets и Server-Sent Events](./Web_technologies/WS_SSE_LongPooling/longPooling.md)
+23. [MVC](./Patterns/MVC/mvc.md)
+24. Недостатки паттерна MVW
+25. API
+26. CDN
 
 ***
 
