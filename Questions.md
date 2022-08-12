@@ -20,8 +20,8 @@
 16. [Веб-компоненты](./Web_technologies/web-components/webComponents.md)
 17. [sessionStorage и localStorage](./Web_technologies/browser/localStorage_vs_sessionStorage.md)
 18. [Способы уменьшения времени загрузки веб-страницы](./Web_technologies/download_optimisation.md)
-21. Особенности разработки мультиязычных сайтов
-22. Flash Of Unstyled Content (FOUC)
+19. Особенности разработки мультиязычных сайтов
+20. [Flash Of Unstyled Content (FOUC)](./Web_technologies/browser/FOUC.md)
 23. Layout, Painting и Compositing
 26. Long-Polling, Websockets и Server-Sent Events
 27. MVC
