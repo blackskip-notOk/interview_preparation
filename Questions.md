@@ -28,6 +28,7 @@
 24. Недостатки паттерна MVW
 25. API
 26. CDN
+27. [Делегирование событий](./JavaScript/Theory/EventDelegate/eventDelegate.md)
 
 ***
 
