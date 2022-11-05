@@ -94,7 +94,7 @@
 5. [Разница между `null` и `undefined`](./JavaScript/Theory/Types/5_Undefined_%26_null.md)
 6. Операторы «И» и «ИЛИ» (`&&` и `||`)
 7. Типы таймеров
-8. Поднятие (Hoisting)
+8. [Поднятие (Hoisting)](./JavaScript/Theory/Hoisting/Hoisting.md)
 9. [Область видимости (Scope)](./JavaScript/Theory/Variables/scope.md)
 10. Разница между `var`, `let` и `const`
 11. Замыкание (Closure)
@@ -104,9 +104,9 @@
 15. Методы строк
 16. Методы массивов
 17. Чистая функция
-20. Функции - объекты первого класса
-21. Как определить наличие свойства в объекте?
-22. IIFE
+18. Функции - объекты первого класса
+19. Как определить наличие свойства в объекте?
+20. [IIFE](./JavaScript/Theory/Functions/IIFE/iife.md)
 23. Псевдомассив arguments
 24. Host-объекты и нативные объекты
 26. [Прототипное наследование](./JavaScript/Theory/OOP/OOP.md)

@@ -83,36 +83,36 @@ function f() {
 
 // 3. == vs ===, falsy значения?
 
-console.log([] == []); // ?
-console.log([] === []); // ?
+console.log([] == []); // false
+console.log([] === []); // false
 
-console.log({} == {}); // ?
-console.log({} === {}); // ?
+console.log({} == {}); // false
+console.log({} === {}); // false
 
-console.log('' == 0); // ?
-console.log('' == null); // ?
-console.log('' == undefined); // ?
-console.log(0 == null); // ?
-console.log(0 == undefined); // ?
+console.log('' == 0); // true
+console.log('' == null); // false
+console.log('' == undefined); // false
+console.log(0 == null); // false
+console.log(0 == undefined); // false
 
-console.log(NaN == NaN); // ?
-console.log(NaN === NaN); // ?
-console.log(null == undefined); // ?
-console.log(undefined == null); // ?
+console.log(NaN == NaN); // false
+console.log(NaN === NaN); // false
+console.log(null == undefined); // true
+console.log(undefined == null); // true
 
 
 // 4. Логические операторы
-console.log(true || false); // ?
-console.log(1 || false); // ?
-console.log(0 || false); // ?
-console.log('string' || false); // ?
-console.log(0 || false || 'string' || 1); // ?
-console.log(false || 0 && 5); // ?
-console.log(true || 1 && 5); // ?
-console.log(true && false); // ?
-console.log(false && true); // ?
-console.log(1 && 0 && 5); // ?
-console.log(1 && 5 || 7); // ?
+console.log(true || false); // true
+console.log(1 || false); // 1
+console.log(0 || false); // false
+console.log('string' || false); // string
+console.log(0 || false || 'string' || 1); // string
+console.log(false || 0 && 5); // 0
+console.log(true || 1 && 5); // true
+console.log(true && false); // false
+console.log(false && true); // false
+console.log(1 && 0 && 5); // 0
+console.log(1 && 5 || 7); // 5
 
 // 5. Прототипы
 
@@ -159,19 +159,19 @@ const obj = {
   }
 }
 
-console.log(obj.prop.getname()); // ?
+console.log(obj.prop.getname()); // Rox
 
 const test = obj.prop.getname;
-console.log(test()); // ?
+console.log(test()); // John
 
-console.log(test.call(obj.prop)); // ?
-console.log(test.apply(obj)); // ?
-console.log(test.bind(obj)); // ?
-console.log(test.bind(obj).bind(obj.prop)()); // ?
-console.log(obj.prop.arrow()); // ?
+console.log(test.call(obj.prop)); // Rox
+console.log(test.apply(obj)); // Colin
+console.log(test.bind(obj)); // function
+console.log(test.bind(obj).bind(obj.prop)()); // Colin
+console.log(obj.prop.arrow()); // John
 
-obj.prop.iife(); // ?
-obj.prop.arrowInsideFunction()(); // ?
+obj.prop.iife(); // John
+obj.prop.arrowInsideFunction()(); // Rox
 
 // 7. Promise, EventLoop
 
@@ -191,6 +191,8 @@ a.then(() => console.log(4));
 
 console.log(5);
 
+// 1 2 5 4 3
+
 // 7.2
 console.log(1);
 
@@ -209,6 +211,8 @@ a.then(() => console.log(4))
 .then(() => console.log(7));
 
 console.log(8);
+
+// 1 2 8 5 7 3
 
 // 7.3
 let n = 0;
