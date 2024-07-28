@@ -215,10 +215,10 @@ baz(); // <-- Место вызова для `baz`
    ```` js
    function bar() {
     console.log(Object.prototype.toString.call(this));
- }
-
-bar.call(7); // [object Number]
-bar.call("foo"); // [object String]
+   }
+   
+   bar.call(7); // [object Number]
+   bar.call("foo"); // [object String]
 ````
 
    ***
