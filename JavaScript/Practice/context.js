@@ -1,39 +1,54 @@
 /** Контекст вызова */
 
-var name = 'Name1';
-
 const obj = {
-    name: 'Name2',
-    prop: {
-        name: 'Name3',
-        getName: function () {
-            return this.name;
-        },
+  name: 'Colin',
+  prop: {
+    name: 'Rox',
+    getname: function() {
+      return this.name;
     },
-};
+    arrow: () => this.name,
+    iife: function() {
+      (function() {
+        console.log(this.name);
+      })()
+    },
+    arrowInsideFunction: function() {
+      return () => console.log(this.name);
+    }
+  }
+}
 
-console.log(obj.prop.getName());
+console.log(obj.prop.getname()); // ? 
 
-const test = obj.prop.getName;
+const test = obj.prop.getname;
+console.log(test()); // ? 
 
-console.log(test());
+console.log(test.call(obj.prop)); // ?
+console.log(test.apply(obj)); // ?
+console.log(test.bind(obj)); // ?
+console.log(test.bind(obj).bind(obj.prop)()); // ?
+console.log(obj.prop.arrow()); // ?
 
-/**Задача по подсчёту количества вызовов функции */
-let data = { count: 0 };
+obj.prop.iife(); // ?
+obj.prop.arrowInsideFunction()();
+
+/**Задача по подсчёту количества вызовов функции
+* дана функция и цикл в котором вызывается эта функция
+* нужно добавить счетчик вызовов
+*/
 
 function foo(num) {
  console.log( "foo: " + num );
- // Подсчет вызовов `foo`
- data.count++;
 }
 
 for (let i=0; i < 10; i++) {
  if (i > 5) {
- foo( i );
+     foo( i );
  }
 }
 
-console.log( data.count ); // 4
+// console.log( foo.count ); // 4
 
 
 /** Решение задачи без использования `this` путём использования идентификатора `foo` как ссылку на объект функции: */
