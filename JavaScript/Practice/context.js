@@ -144,3 +144,38 @@ setTimeout(() => user.sayHi(), 1000);
 
 // ...в течение 1 секунды
 user = { sayHi() { console.log("Другой пользователь в 'setTimeout'!"); } };
+
+
+/** Частичное применение */
+/** Написать функцию double умножающую переданный параметр на 2 */
+function mul(a, b) {
+  return a * b;
+}
+
+console.log( double(3) ); // 6
+
+/** Написать функцию partial */
+function partial() {
+  // your code
+}
+
+// использование:
+let user = {
+  firstName: "John",
+  say(time, phrase) {
+    console.log(`${time}, ${this.firstName}, ${phrase}`);
+  }
+};
+
+// добавляем частично применённый метод с фиксированным временем
+user.sayNow = partial(user.say, new Date());
+
+user.sayNow("Hello");
+// 10:00, John, Hello!
+
+// решение
+function partial(fn, ...args) {
+    return function(...otherArgs) {
+        console.log(fn.call(this, ...args, ...otherArgs))
+    }
+}
