@@ -89,3 +89,20 @@ for (let i=0; i < 10; i++) {
 }
 console.log( foo.count ); // 4
 
+/** This в функции конструкторе */
+
+function C() {
+  this.a = 37;
+}
+
+var o = new C();
+console.log(o.a); // logs 37
+
+function C2() {
+  this.a = 37;
+  return { a: 38 };
+}
+
+o = new C2();
+console.log(o.a); // logs 38
+
