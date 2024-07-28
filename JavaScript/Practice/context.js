@@ -37,7 +37,6 @@ obj.prop.arrowInsideFunction()();
 * дана функция и цикл в котором вызывается эта функция
 * нужно добавить счетчик вызовов
 */
-
 function foo(num) {
  console.log( "foo: " + num );
 }
@@ -50,9 +49,8 @@ for (let i=0; i < 10; i++) {
 
 // console.log( foo.count ); // 4
 
-
+// Решение
 /** Решение задачи без использования `this` путём использования идентификатора `foo` как ссылку на объект функции: */
-
 function foo(num) {
  console.log( "foo: " + num );
  // Подсчет вызовов `foo`
@@ -69,7 +67,6 @@ for (let i=0; i < 10; i++) {
 console.log( foo.count ); // 4
 
 /** Решение задачи с использованием `this`: */
-
 function foo(num) {
  console.log( "foo: " + num );
  // Подсчет вызовов `foo`.
@@ -90,7 +87,6 @@ for (let i=0; i < 10; i++) {
 console.log( foo.count ); // 4
 
 /** This в функции конструкторе */
-
 function C() {
   this.a = 37;
 }
@@ -106,3 +102,45 @@ function C2() {
 o = new C2();
 console.log(o.a); // logs 38
 
+/** Потеря «this». Исправить поведение */
+let user = {
+  firstName: "Вася",
+  sayHi() {
+    console.log(`Привет, ${this.firstName}!`);
+  }
+};
+
+setTimeout(user.sayHi, 1000); // Привет, undefined!
+
+// Решение
+// setTimeout(() => user.sayHi(), 1000); // Привет, Вася!
+
+/** Исправить уязвимость изменения контекста после вызова асинхронной функции */
+let user = {
+  firstName: "Вася",
+  sayHi() {
+    console.log(`Привет, ${this.firstName}!`);
+  }
+};
+
+setTimeout(() => user.sayHi(), 1000);
+
+// ...в течение 1 секунды
+user = { sayHi() { console.log("Другой пользователь в 'setTimeout'!"); } };
+
+// Другой пользователь в 'setTimeout'!
+
+// Решение
+let user = {
+  firstName: "Вася",
+  say() {
+    console.log(`Привет, ${this.firstName}!`);
+  }
+};
+
+let say = user.say.bind(user);
+
+setTimeout(() => user.sayHi(), 1000);
+
+// ...в течение 1 секунды
+user = { sayHi() { console.log("Другой пользователь в 'setTimeout'!"); } };
